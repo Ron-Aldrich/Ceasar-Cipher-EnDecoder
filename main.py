@@ -41,6 +41,7 @@ while(True):
         print("Decoded text:", decode(text))
     elif choice == "3":
         print("Thank you for using this tool!")
+        break
     else:
         print("Please Try Again!")
         break
