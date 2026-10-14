@@ -39,8 +39,9 @@ while(True):
     elif choice == "2":
         print("Decoded text:", decode(text))
     else:
+        print("Please Try Again!")
         break
-        print("Invalid choice!")
+        
 
 
 
