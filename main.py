@@ -27,18 +27,14 @@ def decode(text):
 
 
 while(True):
-    break
+    print("=== Caesar Cipher 13 ===")
+    print("1. Encode")
+    print("2. Decode")
 
-print("=== Caesar Cipher 13 ===")
-print("1. Encode")
-print("2. Decode")
+    choice = input("Choose an option: ")
+    text = input("Enter your text: ")
+    
 
-choice = input("Choose an option: ")
-text = input("Enter your text: ")
 
-if choice == "1":
-    print("Encoded text:", encode(text))
-elif choice == "2":
-    print("Decoded text:", decode(text))
-else:
-    print("Invalid choice!")
+
+
