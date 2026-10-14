@@ -25,6 +25,14 @@ def decode(text):
 
     return result
 
+def Information():
+    print("""
+Caesar Cipher 13 (DK13) Encoder & Decoder
+
+Caesar Cipher 13 (DK13) is a Python-based text encryption and decryption tool that shifts each letter 13 positions forward or backward in the alphabet. It allows users to encode readable text into a simple encrypted format and decode it back to its original form. The program preserves spaces, numbers, and special characters.
+
+Developer: Cryptors""")
+
 
 while(True):
     print("=== Caesar Cipher 13 ===")
