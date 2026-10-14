@@ -26,6 +26,9 @@ def decode(text):
     return result
 
 
+while(True):
+    break
+
 print("=== Caesar Cipher 13 ===")
 print("1. Encode")
 print("2. Decode")
