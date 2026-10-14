@@ -33,8 +33,14 @@ while(True):
 
     choice = input("Choose an option: ")
     text = input("Enter your text: ")
-    
 
+    if choice == "1":
+        print("Encoded text:", encode(text))
+    elif choice == "2":
+        print("Decoded text:", decode(text))
+    else:
+        break
+        print("Invalid choice!")
 
 
 
