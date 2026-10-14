@@ -30,6 +30,7 @@ while(True):
     print("=== Caesar Cipher 13 ===")
     print("1. Encode")
     print("2. Decode")
+    print("3. Exit")
 
     choice = input("Choose an option: ")
     text = input("Enter your text: ")
@@ -38,6 +39,8 @@ while(True):
         print("Encoded text:", encode(text))
     elif choice == "2":
         print("Decoded text:", decode(text))
+    elif choice == "3":
+        print("Thank you for using this tool!")
     else:
         print("Please Try Again!")
         break
